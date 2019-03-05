@@ -4,7 +4,8 @@ This is most useful when you know that your input data is limited to a certain r
 
 
 function phoneticLookup(val) {
-  var result = {
+  var result = "";
+  var lookup = {
 
     "alpha": "Adams",
     "bravo": "Boston",
